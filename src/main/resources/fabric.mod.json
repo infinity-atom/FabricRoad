@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "fabricroad",
+	"version": "${version}",
+	"name": "Fabric Road",
+	"description": "Add roads signs and signals to your world!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/infinity-atom",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fabricroad/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.infinityatom.fabricroad.FabricRoad"
+		]
+	},
+	"mixins": [
+		"fabricroad.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

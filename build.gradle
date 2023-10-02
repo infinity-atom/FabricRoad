@@ -77,3 +77,8 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+runClient {
+	args '--username=Dev'
+	// stop repeating advancements when player name changes
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "fabricroad:block/au_speed_sign_80"},
+    "facing=south": { "model":  "fabricroad:block/au_speed_sign_80", "y":  180 },
+    "facing=west": { "model":  "fabricroad:block/au_speed_sign_80", "y":  270 },
+    "facing=east": { "model":  "fabricroad:block/au_speed_sign_80", "y":  90 }
+  }
+}

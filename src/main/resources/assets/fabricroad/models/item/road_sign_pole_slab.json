@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fabricroad:item/road_sign_pole_slab"
+  }
+}

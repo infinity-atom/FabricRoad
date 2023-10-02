@@ -1,3 +1,30 @@
 {
-  "block.fabricroad.road_sign_pole": "Road Sign Pole"
+  "itemGroup.fabricroad.fabricroaditems": "Fabric Roads",
+
+  "block.fabricroad.road_sign_pole": "Road Sign Pole",
+  "block.fabricroad.road_sign_pole_slab": "Road Sign Pole Slab",
+
+  "block.fabricroad.au_speed_sign_10": "Australian Speed Sign (10)",
+  "block.fabricroad.au_speed_sign_20": "Australian Speed Sign (20)",
+  "block.fabricroad.au_speed_sign_30": "Australian Speed Sign (30)",
+  "block.fabricroad.au_speed_sign_40": "Australian Speed Sign (40)",
+  "block.fabricroad.au_speed_sign_50": "Australian Speed Sign (50)",
+  "block.fabricroad.au_speed_sign_60": "Australian Speed Sign (60)",
+  "block.fabricroad.au_speed_sign_70": "Australian Speed Sign (70)",
+  "block.fabricroad.au_speed_sign_80": "Australian Speed Sign (80)",
+  "block.fabricroad.au_speed_sign_90": "Australian Speed Sign (90)",
+  "block.fabricroad.au_speed_sign_100": "Australian Speed Sign (100)",
+  "block.fabricroad.au_speed_sign_110": "Australian Speed Sign (110)",
+
+  "block.fabricroad.us_speed_sign_20": "US Speed Sign (20)",
+  "block.fabricroad.us_speed_sign_25": "US Speed Sign (25)",
+  "block.fabricroad.us_speed_sign_30": "US Speed Sign (30)",
+  "block.fabricroad.us_speed_sign_35": "US Speed Sign (35)",
+  "block.fabricroad.us_speed_sign_40": "US Speed Sign (40)",
+  "block.fabricroad.us_speed_sign_45": "US Speed Sign (45)",
+  "block.fabricroad.us_speed_sign_50": "US Speed Sign (50)",
+  "block.fabricroad.us_speed_sign_60": "US Speed Sign (60)",
+  "block.fabricroad.us_speed_sign_65": "US Speed Sign (65)",
+  "block.fabricroad.us_speed_sign_70": "US Speed Sign (70)",
+  "block.fabricroad.us_speed_sign_80": "US Speed Sign (80)"
 }

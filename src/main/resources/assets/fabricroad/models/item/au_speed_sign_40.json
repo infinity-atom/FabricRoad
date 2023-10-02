@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fabricroad:item/au_speed_sign_40"
+  }
+}

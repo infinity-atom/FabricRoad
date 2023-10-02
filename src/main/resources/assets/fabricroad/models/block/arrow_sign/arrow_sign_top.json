@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "fabricroad:block/road_sign_pole",
+		"1": "fabricroad:block/arrow_sign_top",
+		"particle": "fabricroad:block/road_sign_pole"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 18, 9],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [14, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [14, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [14, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [14, 0, 16, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 6],
+			"to": [16, 18, 7],
+			"faces": {
+				"north": {"uv": [1, 1, 16, 16], "texture": "#1"},
+				"east": {"uv": [0.25, 7, 0.375, 11], "texture": "#1"},
+				"south": {"uv": [0, 15.375, 0.875, 16], "texture": "#1"},
+				"west": {"uv": [0.375, 11.25, 0.5, 15.25], "texture": "#1"},
+				"up": {"uv": [0.5, 6.4375, 0.25, 5.125], "texture": "#1"},
+				"down": {"uv": [0.5, 5.5625, 0.25, 6.875], "texture": "#1"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "Pole1",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		},
+		1
+	]
+}

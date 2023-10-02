@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model":  "fabricroad:block/us_speed_sign_35"},
-    "facing=south": { "model":  "fabricroad:block/us_speed_sign_35", "y":  180 },
-    "facing=west": { "model":  "fabricroad:block/us_speed_sign_35", "y":  270 },
-    "facing=east": { "model":  "fabricroad:block/us_speed_sign_35", "y":  90 }
+    "facing=north": { "model":  "fabricroad:block/us_speed_sign/us_speed_sign_35"},
+    "facing=south": { "model":  "fabricroad:block/us_speed_sign/us_speed_sign_35", "y":  180 },
+    "facing=west": { "model":  "fabricroad:block/us_speed_sign/us_speed_sign_35", "y":  270 },
+    "facing=east": { "model":  "fabricroad:block/us_speed_sign/us_speed_sign_35", "y":  90 }
   }
 }

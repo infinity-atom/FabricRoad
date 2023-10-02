@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model":  "fabricroad:block/au_speed_sign_20"},
-    "facing=south": { "model":  "fabricroad:block/au_speed_sign_20", "y":  180 },
-    "facing=west": { "model":  "fabricroad:block/au_speed_sign_20", "y":  270 },
-    "facing=east": { "model":  "fabricroad:block/au_speed_sign_20", "y":  90 }
+    "facing=north": { "model":  "fabricroad:block/au_speed_sign/au_speed_sign_20"},
+    "facing=south": { "model":  "fabricroad:block/au_speed_sign/au_speed_sign_20", "y":  180 },
+    "facing=west": { "model":  "fabricroad:block/au_speed_sign/au_speed_sign_20", "y":  270 },
+    "facing=east": { "model":  "fabricroad:block/au_speed_sign/au_speed_sign_20", "y":  90 }
   }
 }

@@ -1,7 +1,7 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "fabricroad:item/misc_gutter_side"
+		"layer0": "fabricroad:item/misc_gutter_corner_in"
 	}
 }
 

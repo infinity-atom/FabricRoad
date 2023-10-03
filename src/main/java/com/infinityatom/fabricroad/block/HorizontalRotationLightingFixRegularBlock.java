@@ -14,14 +14,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class HorizontalRotationRegularBlock extends HorizontalFacingBlock {
+public class HorizontalRotationLightingFixRegularBlock extends HorizontalFacingBlock {
 
-    public HorizontalRotationRegularBlock(Settings settings) {
+    public HorizontalRotationLightingFixRegularBlock(Settings settings) {
         super(settings);
     }
 
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(1, 0, 1, 15, 16, 15);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

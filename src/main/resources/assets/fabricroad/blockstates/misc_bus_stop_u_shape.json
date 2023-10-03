@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "fabricroad:block/misc/misc_bus_stop_u_shape"},
+    "facing=south": { "model":  "fabricroad:block/misc/misc_bus_stop_u_shape", "y":  180 },
+    "facing=west": { "model":  "fabricroad:block/misc/misc_bus_stop_u_shape", "y":  270 },
+    "facing=east": { "model":  "fabricroad:block/misc/misc_bus_stop_u_shape", "y":  90 }
+  }
+}

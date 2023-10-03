@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "fabricroad:block/misc/misc_gutter_corner_in"},
+    "facing=south": { "model":  "fabricroad:block/misc/misc_gutter_corner_in", "y":  180 },
+    "facing=west": { "model":  "fabricroad:block/misc/misc_gutter_corner_in", "y":  270 },
+    "facing=east": { "model":  "fabricroad:block/misc/misc_gutter_corner_in", "y":  90 }
+  }
+}

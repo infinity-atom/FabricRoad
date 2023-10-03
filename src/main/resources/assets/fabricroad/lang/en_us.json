@@ -3,6 +3,7 @@
 
   "block.fabricroad.road_sign_pole": "Road Sign Pole",
   "block.fabricroad.road_sign_pole_slab": "Road Sign Pole Slab",
+  "block.fabricroad.bus_stop_pole": "Bus Stop Pole",
 
   "block.fabricroad.au_speed_sign_10": "Australian Speed Sign (10)",
   "block.fabricroad.au_speed_sign_20": "Australian Speed Sign (20)",
@@ -35,7 +36,7 @@
   "block.fabricroad.arrow_sign_top": "Arrow Sign (Top)",
   "block.fabricroad.arrow_sign_topright": "Arrow Sign (Top Right)",
   "block.fabricroad.arrow_sign_right": "Arrow Sign (Right)",
-  "block.fabricraod.arrow_sign_bottomright": "Arrow Sign (Bottom Right)",
+  "block.fabricroad.arrow_sign_bottomright": "Arrow Sign (Bottom Right)",
   "block.fabricroad.arrow_sign_uturn": "Arrow Sign (U-Turn)",
 
   "block.fabricroad.exit_sign_left": "Exit Sign (Left Direction)",
@@ -46,5 +47,9 @@
   "block.fabricroad.sign_airplane": "Sign (Airplane)",
   "block.fabricroad.sign_uturn_permitted": "Sign (U-Turn Permitted)",
 
-  "block.fabricroad.misc_traffic_cone": "Traffic Cone (Misc)"
+  "block.fabricroad.misc_traffic_cone": "Traffic Cone (Misc)",
+  "block.fabricroad.misc_gutter_side": "Road Gutter (Side - Straight)",
+  "block.fabricroad.misc_gutter_corner_out": "Road Gutter (Corner - Facing Outwards)",
+  "block.fabricroad.misc_gutter_corner_in": "Road Gutter (Corner - Facing Inwards)",
+  "block.fabricroad.misc_bus_stop_u_shape": "Bus Stop Sign (U Shape)"
 }

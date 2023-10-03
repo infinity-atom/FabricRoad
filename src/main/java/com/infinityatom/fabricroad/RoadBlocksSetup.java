@@ -1,6 +1,6 @@
 package com.infinityatom.fabricroad;
 
-import com.infinityatom.fabricroad.block.HorizontalRotationRegularBlock;
+import com.infinityatom.fabricroad.block.HorizontalRotationLightingFixRegularBlock;
 import com.infinityatom.fabricroad.block.HorizontalRotationRoadSign;
 import com.infinityatom.fabricroad.block.TrafficCone;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -20,6 +20,14 @@ public class RoadBlocksSetup {
             ), RoadItemGroup.ROADGROUP);
 
     public static final Block ROAD_SIGN_POLE_SLAB = registerBlock("road_sign_pole_slab",
+            new HorizontalRotationRoadSign(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block BUS_STOP_POLE = registerBlock("bus_stop_pole",
             new HorizontalRotationRoadSign(FabricBlockSettings
                     .of(Material.METAL)
                     .strength(0.5f)
@@ -349,7 +357,31 @@ public class RoadBlocksSetup {
             ), RoadItemGroup.ROADGROUP);
 
     public static final Block MISC_GUTTER_SIDE = registerBlock("misc_gutter_side",
-            new HorizontalRotationRegularBlock(FabricBlockSettings
+            new HorizontalRotationLightingFixRegularBlock(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block MISC_GUTTER_CORNER_OUT = registerBlock("misc_gutter_corner_out",
+            new HorizontalRotationLightingFixRegularBlock(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block MISC_GUTTER_CORNER_IN = registerBlock("misc_gutter_corner_in",
+            new HorizontalRotationLightingFixRegularBlock(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block MISC_BUS_STOP_U_SHAPE = registerBlock("misc_bus_stop_u_shape",
+            new HorizontalRotationRoadSign(FabricBlockSettings
                     .of(Material.METAL)
                     .strength(0.5f)
                     .requiresTool()

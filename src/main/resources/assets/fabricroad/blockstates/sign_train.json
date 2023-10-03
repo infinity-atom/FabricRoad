@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=north": { "model":  "fabricroad:block/sign/sign_train"},
+		"facing=south": { "model":  "fabricroad:block/sign/sign_train", "y":  180 },
+		"facing=west": { "model":  "fabricroad:block/sign/sign_train", "y":  270 },
+		"facing=east": { "model":  "fabricroad:block/sign/sign_train", "y":  90 }
+	}
+}

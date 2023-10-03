@@ -26,5 +26,25 @@
   "block.fabricroad.us_speed_sign_60": "US Speed Sign (60)",
   "block.fabricroad.us_speed_sign_65": "US Speed Sign (65)",
   "block.fabricroad.us_speed_sign_70": "US Speed Sign (70)",
-  "block.fabricroad.us_speed_sign_80": "US Speed Sign (80)"
+  "block.fabricroad.us_speed_sign_80": "US Speed Sign (80)",
+
+  "block.fabricroad.arrow_sign_bottom": "Arrow Sign (Bottom)",
+  "block.fabricroad.arrow_sign_bottomleft": "Arrow Sign (Bottom Left)",
+  "block.fabricroad.arrow_sign_left": "Arrow Sign (Left)",
+  "block.fabricroad.arrow_sign_topleft": "Arrow Sign (Top Left)",
+  "block.fabricroad.arrow_sign_top": "Arrow Sign (Top)",
+  "block.fabricroad.arrow_sign_topright": "Arrow Sign (Top Right)",
+  "block.fabricroad.arrow_sign_right": "Arrow Sign (Right)",
+  "block.fabricraod.arrow_sign_bottomright": "Arrow Sign (Bottom Right)",
+  "block.fabricroad.arrow_sign_uturn": "Arrow Sign (U-Turn)",
+
+  "block.fabricroad.exit_sign_left": "Exit Sign (Left Direction)",
+  "block.fabricroad.exit_sign_right": "Exit Sign (Right Direction)",
+
+  "block.fabricroad.sign_train": "Sign (Train)",
+  "block.fabricroad.sign_ferry": "Sign (Ferry)",
+  "block.fabricroad.sign_airplane": "Sign (Airplane)",
+  "block.fabricroad.sign_uturn_permitted": "Sign (U-Turn Permitted)",
+
+  "block.fabricroad.misc_traffic_cone": "Traffic Cone (Misc)"
 }

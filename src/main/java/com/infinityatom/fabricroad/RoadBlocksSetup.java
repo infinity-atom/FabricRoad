@@ -1,6 +1,8 @@
 package com.infinityatom.fabricroad;
 
+import com.infinityatom.fabricroad.block.HorizontalRotationRegularBlock;
 import com.infinityatom.fabricroad.block.HorizontalRotationRoadSign;
+import com.infinityatom.fabricroad.block.TrafficCone;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -300,10 +302,54 @@ public class RoadBlocksSetup {
 
     // PLACE SIGNS
 
+    public static final Block SIGN_TRAIN = registerBlock("sign_train",
+            new HorizontalRotationRoadSign(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block SIGN_FERRY = registerBlock("sign_ferry",
+            new HorizontalRotationRoadSign(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block SIGN_AIRPLANE = registerBlock("sign_airplane",
+            new HorizontalRotationRoadSign(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
     // OTHER ROAD SIGNS
 
     public static final Block SIGN_UTURN_PERMITTED = registerBlock("sign_uturn_permitted",
             new HorizontalRotationRoadSign(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    // MISC
+
+
+
+    public static final Block MISC_TRAFFIC_CONE = registerBlock("misc_traffic_cone",
+            new TrafficCone(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
+    public static final Block MISC_GUTTER_SIDE = registerBlock("misc_gutter_side",
+            new HorizontalRotationRegularBlock(FabricBlockSettings
                     .of(Material.METAL)
                     .strength(0.5f)
                     .requiresTool()

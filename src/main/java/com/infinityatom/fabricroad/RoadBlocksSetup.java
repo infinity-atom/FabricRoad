@@ -388,6 +388,14 @@ public class RoadBlocksSetup {
                     .nonOpaque()
             ), RoadItemGroup.ROADGROUP);
 
+    public static final Block MISC_BUS_STOP_REGULAR = registerBlock("misc_bus_stop_regular",
+            new HorizontalRotationRoadSign(FabricBlockSettings
+                    .of(Material.METAL)
+                    .strength(0.5f)
+                    .requiresTool()
+                    .nonOpaque()
+            ), RoadItemGroup.ROADGROUP);
+
 
 
 

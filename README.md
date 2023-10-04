@@ -8,7 +8,7 @@ GitHub <br>
 GitHub Activity<br>
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/infinity-atom/FabricRoad/master)
 
-Modrinth (Not published yet)<br>
+Modrinth<br>
 ![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/ikE3joWn)
 
 <hr>

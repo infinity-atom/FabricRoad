@@ -51,5 +51,6 @@
   "block.fabricroad.misc_gutter_side": "Road Gutter (Side - Straight)",
   "block.fabricroad.misc_gutter_corner_out": "Road Gutter (Corner - Facing Outwards)",
   "block.fabricroad.misc_gutter_corner_in": "Road Gutter (Corner - Facing Inwards)",
-  "block.fabricroad.misc_bus_stop_u_shape": "Bus Stop Sign (U Shape)"
+  "block.fabricroad.misc_bus_stop_u_shape": "Bus Stop Sign (U Shape)",
+  "block.fabricroad.misc_bus_stop_regular": "Bus Stop Sign (New South Wales B Pole)"
 }
